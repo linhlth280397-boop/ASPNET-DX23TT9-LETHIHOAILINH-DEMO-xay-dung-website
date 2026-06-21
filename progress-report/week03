@@ -1,31 +1,50 @@
-# Kế Hoạch Tuần 03 & Tiến Độ Thực Hiện Đề Tài
+# Báo cáo tiến độ tuần 03
 
-## Mục Tiêu Tuần 03 (Tập trung Nghiên cứu & Ý tưởng)
-1. **Lý thuyết môn học:**
-   - Hoàn thành nghiên cứu lý thuyết **Bài 3: Sử dụng các controls của ASP.NET (tiếp theo)**.
-   - Tiếp thu kiến thức **Bài 4: Quản lý trạng thái và các đối tượng của ASP.NET** (Tìm hiểu nguyên lý hoạt động của `Session`, `Cookie`, `ViewState`).
-2. **Nghiên cứu & Xây dựng ý tưởng đề tài:**
-   - Thu thập thông tin chi tiết, tư liệu và hình ảnh thực tế về danh lam thắng cảnh, khách sạn, nhà hàng, ẩm thực, và các lễ hội đặc trưng tại **Biển Ba Động**.
-   - Lên phương án bố cục, định hình ý tưởng sắp xếp cấu trúc nội dung (Sitemap) cho từng trang chức năng để chuẩn bị cho giai đoạn thiết kế, lập trình.
+**Thời gian:** 15/06/2026 - 21/06/2026
+
+## Công việc thực hiện
+
+- Hoàn thành nội dung học tập:
+  - Bài 3: Sử dụng các Controls của ASP.NET (tiếp theo).
+  - Bài 4: Quản lý trạng thái và các đối tượng trong ASP.NET.
+- Xem video bài giảng, nghiên cứu slide và ghi chú các kiến thức trọng tâm.
+- Tham gia mục **Trao đổi – Thảo luận** trên LMS để theo dõi các thông báo và trao đổi về môn học.
+
+## Chuẩn bị cho đồ án
+
+- Thu thập và tổng hợp thông tin về khu du lịch Biển Ba Động, bao gồm:
+  - Các địa điểm tham quan.
+  - Đặc sản địa phương.
+  - Dịch vụ lưu trú và ăn uống.
+  - Hình ảnh phục vụ xây dựng nội dung website.
+- Phân tích và xác định các nhóm thông tin cần quản lý trên hệ thống.
+- Phác thảo bố cục ban đầu cho các trang:
+  - Trang chủ.
+  - Giới thiệu địa điểm.
+  - Dịch vụ.
+  - Tin tức.
+
+---
+
+## Kết quả đạt được
+
+- Hoàn thành các nội dung học tập theo đúng tiến độ của tuần.
+- Nắm được cách quản lý trạng thái trong ASP.NET (Session, Cookie, Application...) và ứng dụng của các Controls trong xây dựng giao diện.
+- Hoàn thành việc khảo sát và thu thập dữ liệu ban đầu cho đề tài.
+- Xác định được bố cục và định hướng triển khai các chức năng chính của website.
 
 ---
 
-## Lịch Trình Chi Tiết & Phân Bổ Công Việc
+## Khó khăn
 
-**Các buổi tối trong tuần:** 
-    *   Xem video và đọc slide Bài 3, Bài 4 trên LMS. 
-    *   Nắm lý thuyết về các control và cách dùng Session/Cookie.
-
-*   **Thứ 7 và Chủ Nhật:**
-    *   Lên mạng tìm kiếm thông tin, hình ảnh thực tế về du lịch Biển Ba Động (đặc sản, nhà hàng, khách sạn, điểm tham quan...).
-    *   Phác thảo sơ bộ ý tưởng hiển thị nội dung cho từng trang (Trang chủ, Trang dịch vụ, Trang tin tức...).
-    *   Tham gia thảo luận trên LMS môn học và push file này lên GitHub để lưu tiến độ.
+- Nguồn thông tin và hình ảnh về khu du lịch Biển Ba Động còn phân tán, cần chọn lọc và đối chiếu từ nhiều nguồn để đảm bảo tính chính xác.
+- Đang trong quá trình nghiên cứu cách tổ chức dữ liệu phù hợp trước khi thiết kế cơ sở dữ liệu.
 
 ---
 
-## Kết Quả Đạt Được Trong Tuần (Deliverables)
-- Nắm vững nền tảng lý thuyết về Controls nâng cao và Quản lý trạng thái trong ASP.NET.
-- Hoàn thành bộ tài liệu tổng hợp thông tin, hình ảnh thô về du lịch Biển Ba Động phục vụ cho việc đổ dữ liệu sau này.
-- Định hình xong sơ đồ cấu trúc thông tin (Sitemap) và ý tưởng phân bổ nội dung trên các trang chính.
+## Kế hoạch tuần tiếp theo
 
----
+- Thiết kế cơ sở dữ liệu cho hệ thống.
+- Xây dựng giao diện ban đầu của website.
+- Thực hành kết nối cơ sở dữ liệu bằng ADO.NET.
+- Tiếp tục cập nhật tài liệu và tiến độ thực hiện trên GitHub.
