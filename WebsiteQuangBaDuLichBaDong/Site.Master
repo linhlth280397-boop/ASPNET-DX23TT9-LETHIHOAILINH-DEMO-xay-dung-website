@@ -1,0 +1,109 @@
+﻿<%@ Master Language="C#" AutoEventWireup="true"
+    CodeBehind="Site.master.cs"
+    Inherits="WebsiteQuangBaDuLichBaDong.SiteMaster" %>
+
+<!DOCTYPE html>
+
+<html lang="vi">
+<head runat="server">
+
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+
+    <title><%: Page.Title %> | Website Quảng bá Du lịch Biển Ba Động</title>
+
+    <asp:PlaceHolder runat="server">
+        <%: Scripts.Render("~/bundles/modernizr") %>
+    </asp:PlaceHolder>
+
+<%-- <webopt:BundleReference runat="server" Path="~/Content/css" /> --%>
+<link href="Content/style.css?v=1" rel="stylesheet" />
+    <link rel="icon" href="~/favicon.ico" />
+
+</head>
+
+<body>
+
+<form id="form1" runat="server">
+
+    <asp:ScriptManager ID="ScriptManager1" runat="server">
+    </asp:ScriptManager>
+
+    <header class="header">
+
+    <div class="container header-container">
+
+        <a href="Default.aspx" class="logo">
+            🌊 Biển Ba Động
+        </a>
+
+        <ul class="menu">
+
+            <li>
+                <a href="Default.aspx">Trang chủ</a>
+            </li>
+            <li>
+    <a href="Gioithieu.aspx">Giới thiệu</a>
+</li>
+
+
+            <li class="dropdown">
+
+                <a href="#">
+                    Điểm đến ▾
+                </a>
+
+                <ul class="dropdown-menu">
+
+                    <li><a href="BaiBien.aspx">Bãi biển</a></li>
+
+                    <li><a href="HaiSan.aspx">Hải sản</a></li>
+
+                    <li><a href="CamTrai.aspx">Cắm trại</a></li>
+
+                    <li><a href="RungPhiLao.aspx">Rừng phi lao</a></li>
+
+                    <li><a href="CheckIn.aspx">Check-in</a></li>
+
+                </ul>
+
+            </li>
+
+            <li>
+                <a href="ThuVienAnh.aspx">Thư viện ảnh</a>
+            </li>
+            
+        </ul>
+
+    </div>
+
+</header>
+
+    <main>
+
+        <asp:ContentPlaceHolder
+            ID="MainContent"
+            runat="server">
+        </asp:ContentPlaceHolder>
+
+    </main>
+
+    <footer class="footer">
+
+        <div class="container">
+
+            <p>
+
+                © 2026 Website Quảng bá Du lịch Biển Ba Động - Trà Vinh
+
+            </p>
+
+        </div>
+
+    </footer>
+
+</form>
+
+</body>
+
+</html>
