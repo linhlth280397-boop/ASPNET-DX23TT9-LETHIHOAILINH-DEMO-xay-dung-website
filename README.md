@@ -1,7 +1,6 @@
-# ASPNET-DX23TT9-LETHIHOAILINH-DEMO xay dung web
+# ASPNET-DX23TT9-LETHIHOAILINH-DEMO
 
-## Đề tài
-Xây dựng Website Quảng bá Du lịch Biển Ba Động.
+# 🌊 Website Quảng bá Du lịch Biển Ba Động
 
 ## Thông tin sinh viên
 
@@ -12,108 +11,144 @@ Xây dựng Website Quảng bá Du lịch Biển Ba Động.
 
 ---
 
-## Giới thiệu đề tài
+# Giới thiệu đề tài
 
-Website Quảng bá Du lịch Biển Ba Động được xây dựng nhằm giới thiệu các điểm tham quan, dịch vụ du lịch, ẩm thực, lễ hội và các hoạt động giải trí tại khu du lịch Biển Ba Động. Hệ thống giúp người dùng dễ dàng tìm kiếm thông tin du lịch và quảng bá hình ảnh địa phương đến khách du lịch.
-
----
-
-## Mục tiêu
-
-- Giới thiệu thông tin về Biển Ba Động.
-- Quảng bá các địa điểm du lịch nổi bật.
-- Cung cấp thông tin về khách sạn, nhà hàng và dịch vụ du lịch.
-- Cập nhật tin tức, sự kiện và hoạt động du lịch.
-- Rèn luyện kỹ năng xây dựng ứng dụng Web bằng ASP.NET.
+Website Quảng bá Du lịch Biển Ba Động được xây dựng nhằm giới thiệu vẻ đẹp thiên nhiên, các điểm tham quan, ẩm thực và hoạt động du lịch tại khu du lịch Biển Ba Động (Trà Vinh). Website giúp người dùng dễ dàng tìm hiểu thông tin và góp phần quảng bá hình ảnh du lịch địa phương.
 
 ---
 
-## Công nghệ sử dụng
+# Mục tiêu
 
-- ASP.NET
+- Giới thiệu tổng quan về Biển Ba Động.
+- Cung cấp thông tin về các địa điểm tham quan.
+- Giới thiệu ẩm thực, cắm trại, rừng phi lao và điểm check-in.
+- Hiển thị thư viện hình ảnh.
+- Hiển thị vị trí trên Google Maps.
+- Giúp người dùng dễ dàng tìm hiểu thông tin du lịch.
+
+---
+
+# Công nghệ sử dụng
+
+- ASP.NET Web Forms (.NET Framework 4.8)
 - C#
 - ADO.NET
 - SQL Server
-- HTML
-- CSS
+- HTML5
+- CSS3
+- Bootstrap
 - JavaScript
-- XML
-- Web Services
 
 ---
 
-## Chức năng dự kiến
+# Chức năng
 
-### Người dùng
-
-- Xem thông tin du lịch.
-- Xem danh sách địa điểm nổi bật.
-- Tìm kiếm địa điểm du lịch.
-- Xem hình ảnh giới thiệu.
-- Xem tin tức và sự kiện.
-
-### Quản trị viên
-
-- Quản lý địa điểm du lịch.
-- Quản lý bài viết.
-- Quản lý hình ảnh.
-- Quản lý thông tin dịch vụ.
-- Quản lý người dùng hệ thống.
+- Trang chủ
+- Giới thiệu Biển Ba Động
+- Bãi biển
+- Hải sản
+- Cắm trại
+- Rừng phi lao
+- Điểm check-in
+- Thư viện ảnh
+- Liên hệ
+- Google Maps
+- Đánh giá của du khách
 
 ---
 
-## Kế hoạch thực hiện
+# Hướng dẫn cài đặt
 
-### Tuần 01 (31/05/2026 - 07/06/2026)
+## 1. Clone project
 
-- Tìm hiểu ASP.NET.
-- Tìm hiểu ngôn ngữ lập trình C#.
-- Tạo GitHub Repository.
-- Xây dựng ý tưởng đề tài.
+```bash
+git clone <Link GitHub Repository>
+```
 
-### Tuần 02 (08/06/2026 - 14/06/2026)
-
-- Tìm hiểu các Controls của ASP.NET.
-- Khảo sát yêu cầu hệ thống.
-- Xác định chức năng chính.
-
-### Tuần 03 (15/06/2026 - 21/06/2026)
-
-- Tiếp tục nghiên cứu Controls ASP.NET.
-- Tìm hiểu quản lý trạng thái và các đối tượng ASP.NET.
-- Thiết kế giao diện sơ bộ.
-
-### Tuần 04 (22/06/2026 - 28/06/2026)
-
-- Tìm hiểu ADO.NET.
-- Thiết kế cơ sở dữ liệu.
-- Xây dựng chức năng kết nối dữ liệu.
-
-### Tuần 05 (29/06/2026 - 05/07/2026)
-
-- Tìm hiểu XML.
-- Xây dựng cấu trúc dữ liệu phục vụ hệ thống.
-
-### Tuần 06 (06/07/2026 - 12/07/2026)
-
-- Tìm hiểu Web Services.
-- Hoàn thiện các chức năng chính.
-
-### Tuần 07 (13/07/2026 - 19/07/2026)
-
-- Kiểm thử hệ thống.
-- Sửa lỗi.
-- Hoàn thiện báo cáo.
-
-### Tuần 08 (20/07/2026 - 26/07/2026)
-
-- Ôn tập.
-- Hoàn thiện sản phẩm.
-- Chuẩn bị bảo vệ đồ án.
+Hoặc tải file ZIP từ Google drive.
 
 ---
 
+## 2. Tạo cơ sở dữ liệu
 
-## Ghi chú
+Mở SQL Server Management Studio (SSMS).
 
-README.md sẽ được cập nhật thường xuyên trong quá trình thực hiện đồ án để phản ánh đúng tiến độ và các nội dung đã hoàn thành.
+Tạo cơ sở dữ liệu:
+
+```sql
+CREATE DATABASE WebsiteQuangBaDuLichBaDong;
+```
+
+Sau đó chạy file:
+
+```
+WebsiteQuangBaDuLichBaDong.sql
+```
+
+để tạo bảng và dữ liệu.
+
+---
+
+## 3. Mở project
+
+Mở file:
+
+```
+WebsiteQuangBaDuLichBaDong.sln
+```
+
+bằng Visual Studio 2022.
+
+---
+
+## 4. Cấu hình chuỗi kết nối
+
+Mở file `Web.config` và chỉnh lại nếu tên SQL Server khác.
+
+Ví dụ:
+
+```xml
+<connectionStrings>
+    <add name="WebsiteQuangBaDuLichBaDongConnection"
+         connectionString="Data Source=localhost\SQLEXPRESS;Initial Catalog=WebsiteQuangBaDuLichBaDong;Integrated Security=True"
+         providerName="System.Data.SqlClient"/>
+</connectionStrings>
+```
+
+---
+
+## 5. Chạy chương trình
+
+Nhấn **F5** hoặc **Ctrl + F5** để chạy website.
+
+---
+
+# Cấu trúc thư mục
+
+```
+WebsiteQuangBaDuLichBaDong
+│
+├── Content/
+├── Images/
+├── Scripts/
+├── Default.aspx
+├── GioiThieu.aspx
+├── BaiBien.aspx
+├── HaiSan.aspx
+├── CamTrai.aspx
+├── CheckIn.aspx
+├── RungPhiLao.aspx
+├── ThuVienAnh.aspx
+├── LienHe.aspx
+├── Site.Master
+├── Web.config
+└── WebsiteQuangBaDuLichBaDong.sql
+```
+
+---
+
+# Kết quả
+
+Website hỗ trợ giới thiệu và quảng bá du lịch Biển Ba Động với giao diện thân thiện, cung cấp thông tin về các điểm tham quan, thư viện ảnh, bản đồ Google Maps và thông tin liên hệ.
+
+---
